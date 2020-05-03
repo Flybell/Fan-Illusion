@@ -1,8 +1,13 @@
 name: fan_experiment
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - psychopy 
-  - python = 3.8.2
-  - pip  
+- python=3.6
+- psychopy
+- pip
+- pip:
+  - psychtoolbox
+  - pygame
+  - pyo
+  - pyparallel; platform_system != "Windows"
+  - SoundFile; platform_system == "Windows"
