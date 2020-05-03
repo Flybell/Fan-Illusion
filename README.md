@@ -5,5 +5,8 @@ Welcome to the repository of Lynn's master's thesis in perceptual science!
 Demos are written in PsychoPy & Python3. 
 
 # Jupyter Notebook
-Try to run some of the scripts in Binder. 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Flybell/Fan-Illusion/master)
+The demos require the visual.RadialStim component to run. This component is still not available in PsychoJS, which means it cannot be executed in an online HTML environment (see documentation for current available components: https://psychopy.github.io/psychojs/). 
+
+For your reference, I've hosted the PsychoPy experiment (and html output) on Pavlovia GitLab (https://gitlab.pavlovia.org/Flybell/fan-experiment)
+
+
