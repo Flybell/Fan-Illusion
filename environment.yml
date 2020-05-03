@@ -5,6 +5,4 @@ channels:
 dependencies:
   - psychopy 
   - python = 3.8.2
-  - pip
-  - matplotilb
-  
+  - pip  
