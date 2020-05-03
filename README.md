@@ -6,4 +6,4 @@ Demos are written in PsychoPy & Python3.
 
 # Jupyter Notebook
 Try to run some of the scripts in Binder. 
-https://mybinder.org/v2/gh/Flybell/Fan-Illusion/master
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Flybell/Fan-Illusion/master)
