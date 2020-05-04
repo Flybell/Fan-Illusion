@@ -35,7 +35,8 @@ def animateBlade(blade, speed):
 
 def demoLoop(degStop, numStop, degMove, numMove, filename):
     """
-    Stop: the stationary fan. Move: the moving fan.
+    Stop: the stationary fan.
+    Move: the moving fan.
     deg: how big the blades are
     num: how many blades per fan
     filename: the name of the gif file
@@ -54,8 +55,7 @@ def demoLoop(degStop, numStop, degMove, numMove, filename):
         win.flip()
         win.getMovieFrame() #takes a screenshot of each frame
 
-    #creates gif file out of screenshots
-    #creates an infinite loop gif
+    #creates infinite loop gif file out of screenshots
     print("creating gif file")
     create_png_folder()
     win.saveMovieFrames("png/stimuli.png") #load png files to folder
