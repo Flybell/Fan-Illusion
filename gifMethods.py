@@ -16,8 +16,10 @@ def create_gif(filename):
         new_frame = Image.open(i)
         frames.append(new_frame)
 
+    gif_file = "gifs/" + filename
+
     # Save into a GIF file that loops forever
-    frames[0].save(filename, format='GIF',
+    frames[0].save(gif_file, format='GIF',
                    append_images=frames[1:],
                    save_all=True,
                    duration=36, #100 ms = 10 frames per s
