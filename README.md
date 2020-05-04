@@ -11,9 +11,7 @@ The demos below consist of two "fans," each with multiple blades.
 One fan is stationary-- its blades are not moving. 
 The other fan is rotating clockwise -- its blades are moving uniformaly. 
 
-Stationary fan             |  Moving fan
-:-------------------------:|:-------------------------:
-![Image of stationary blades](just_stat.gif)  |  ![Image of just moving blades](just_moving.gif)
+![Image of stationary blades](just_stat.gif)![Image of just moving blades](just_moving.gif)
 
 What happens when we put the two together? 
 
