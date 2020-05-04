@@ -20,7 +20,7 @@ Stationary Fan             |  Moving Fan
 
 What happens when we put the two together? 
 
-We can get two types of motion capture illusions. 
+Depending on the number of blades we have per fan, we can get two types of motion capture illusions. 
 
 The first type: stationary blades are "captured" by moving blades and seemly move. 
 
