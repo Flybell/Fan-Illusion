@@ -1,5 +1,9 @@
 #!/user/bin/env python3
 
+"""
+
+"""
+
 from psychopy import visual, core, event
 from gifMethods import create_png_folder, create_gif
 
@@ -37,34 +41,36 @@ def mainLoop(numBig, numSmall):
         for blade in big_blades:
             animateBlade(blade, speed=0)
         for blade in small_blades:
-            animateBlade(blade, speed= 1)
-
+            animateBlade(blade, speed=1)
         win.flip()
 
         if event.getKeys(keyList=['escape']):
             finish = True
 
-def demoLoop(num = 4):
+def demoLoop(numBig, numSmall, filename):
     """ creates a gif file from screenshots (png files)
     of one entire cycle (360 degrees)"""
-    small_blades = drawBlade(15, num)
-    big_blades = drawBlade(30, num)
+    small_blades = drawBlade(30, numSmall)
+    big_blades = drawBlade(15, numBig)
 
-    for speed in range(0, 359):
+    frame = 0
+    for frame in range(0, 719):
+        frame +=1
         for blade in big_blades:
             animateBlade(blade, speed=0)
         for blade in small_blades:
-            animateBlade(blade, speed = 1)
+            animateBlade(blade, speed=1)
         win.flip()
         win.getMovieFrame() #screenshot
 
     print("creating gif file")
     create_png_folder()
     win.saveMovieFrames("png/stimuli.png")
-    create_gif()
+    create_gif(filename)
+    print("finished")
 
-mainLoop(4, 1)
-#demoLoop()
+#mainLoop(4, 1)
+demoLoop(12, 1, "12x1.gif")
 
 win.close()
 core.quit()
