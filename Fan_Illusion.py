@@ -1,7 +1,9 @@
 #!/user/bin/env python3
 
 """
-
+A pop out window (Psychopy) running the fan illusion on infinite loop.
+Press `escape` key to the close window.
+Change parameters in mainLoop.
 """
 
 from psychopy import visual, core, event
@@ -34,46 +36,27 @@ def animateBlade(blade, speed):
 
 def mainLoop(degStop, numStop, degMove, numMove, filename):
     finish = False
-
+    """
+    Stop: the stationary fan. Move: the moving fan.
+    deg: how big the blades are
+    num: how many blades per fan
+    filename: the name of the gif file
+    """
+    #create the two fans
     stationary_blades = drawBlade(degStop, numStop)
     moving_blades = drawBlade(degMove, numMove)
 
     while finish is not True:
         for blade in stationary_blades:
-            animateBlade(blade, speed=0)
+            animateBlade(blade, speed=0) #stationary
         for blade in moving_blades:
-            animateBlade(blade, speed=1)
+            animateBlade(blade, speed=1) #1 degree per frame
         win.flip()
 
-        if event.getKeys(keyList=['escape']): #escape to end
+        if event.getKeys(keyList=['escape']):
             finish = True
 
-def demoLoop(degStop, numStop, degMove, numMove, filename):
-    """ creates a gif file from screenshots (png files)
-    of one entire cycle (360 degrees)"""
-
-    stationary_blades = drawBlade(degStop, numStop)
-    moving_blades = drawBlade(degMove, numMove)
-
-    frame = 0
-    for frame in range(0, 719): #loops two cycles
-        frame +=1
-        for blade in stationary_blades:
-            animateBlade(blade, speed=0)
-        for blade in moving_blades:
-            animateBlade(blade, speed=1)
-        win.flip()
-        win.getMovieFrame() #takes a screenshot of each frame
-
-    #creates gif file out of screenshots
-    print("creating gif file")
-    create_png_folder()
-    win.saveMovieFrames("png/stimuli.png")
-    create_gif(filename) #infinite loop gif
-    print("finished")
-
-#mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
-demoLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "6x6.gif")
+mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
 
 win.close()
 core.quit()
