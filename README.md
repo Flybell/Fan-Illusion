@@ -56,6 +56,12 @@ Type 1: the leading and trailing edges of the moving blades are attributed to th
 
 Type 2: the leading and trailing edges of the moving blades disappear when they overlap with the stationary blades. 
 
+# Fun stuff
+
+Here's some weird demos, for fun!
+
+![](odd.gif)
+
 
 # Scripts
 
