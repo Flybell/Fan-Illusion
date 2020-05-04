@@ -1,7 +1,5 @@
 # Fan Illusions
-Welcome to the repository of Lynn's master's thesis in perceptual science! 
-
-Supervised by Dr Suling Yeh, I explored the higher-level attention processes behind a series of "motion capture" illusions. 
+Welcome to the repository of Lynn Chiu's master's thesis! Supervised by Dr Suling Yeh, I explored the higher-level attention processes behind a series of "motion capture" illusions. 
 
 What are motion capture illusions? Let's look at some Demos!
 
@@ -32,7 +30,9 @@ The second type: moving blades are instead "captured" by stationary blades and s
 
 # Explanation?
 
-The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its radial form: 
+The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its original and radial form: 
+
+![Image of stepping feet illusion](stepping_feet.gif)
 
 ![Image of radial stepping feet illusion](radial_stepping_feet.gif)
 
