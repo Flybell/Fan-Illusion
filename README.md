@@ -11,7 +11,14 @@ The demos below consist of two "fans," each with multiple blades.
 One fan is stationary-- its blades are not moving. 
 The other fan is rotating clockwise -- its blades are moving uniformaly. 
 
-There are two types of motion capture illusions.
+
+Stationary fan             |  Moving fan
+:-------------------------:|:-------------------------:
+![Image of stationary blades](just_stat.gif)  |  ![Image of just moving blades](just_moving.gif)
+
+What happens when we put the two together? 
+
+We can get two types of motion capture illusions.
 
 The first type: stationary blades are "captured" by moving blades and seemly move. 
 
@@ -21,11 +28,12 @@ The second type: moving blades are instead "captured" by stationary blades and s
 
 ![Image of second type of motion capture](6x6.gif)
 
+
+# Explanation?
+
 The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its radial form: 
 
 ![Image of radial stepping feet illusion](radial_stepping_feet.gif)
-
-# Explanation?
 
 The mainstream explanation of the Stepping Feet illusion is low-level, focusing on the presence and detection of motion signals. I explored whether the illusion is in part caused by higher-level attention processes. The reason? Motion perception is not just a matter of detecting motion signals. 
 
