@@ -60,7 +60,7 @@ Type 2: the leading and trailing edges of the moving blades disappear when they 
 
 Here's some weird demos, for fun!
 
-![](odd.gif)
+![](odd.gif) ![](odd2.gif)
 
 
 # Scripts
