@@ -31,10 +31,13 @@ The mainstream explanation of the Stepping Feet illusion is low-level, focusing 
 
 In the absence of motion signals, we can still "track" and perceive an object as moving  (e.g., when a car is moving through a tunnel or when a rolling ball is temporarily occuluded by a tree trunk). The ability to track is highly contingent on the ability to attend to the object being tracked. When there are too many objects to track, attention load or capacity is depleted and the ability to track deteriorates. 
 
-Here's an example. In this demo, the motion capture illusion is much weaker. We seem to be able to successfully track the moving blade as it transpasses the stationary blades. 
+Here's an example. In this demo, the motion capture illusion is much weaker. Stare at the blade as it moves. We seem to be able to successfully track the moving blade as it transpasses the stationary blades.  
 
 ![Image of single blade moving across multiple blades](12x1.gif)
 
+Compare this again to the "radial" version of the famous Stepping Feet illusion. 
+
+![Image of radial stepping feet illusion](radial_stepping_feet.gif)
 
 Occlusion cues are required for for proper attentive tracking. Leading and trailing edges are types of occlusion cues. I hypothesized that the above phenomena are the result of misplaced occlusion cues. 
 
