@@ -42,7 +42,7 @@ In the absence of motion signals, we can still "track" and perceive an object as
 
 Here's an example. In this demo, the motion capture illusion is much weaker. Stare at the blade as it moves. We seem to be able to successfully track the moving blade as it transpasses the stationary blades.  
 
-![Image of single blade moving across multiple blades](12x1.gif)
+![Image of single blade moving across multiple blades](6x1.gif)
 
 Compare this again to the "radial" version of the famous Stepping Feet illusion. 
 
