@@ -73,7 +73,7 @@ def demoLoop(degStop, numStop, degMove, numMove, filename):
     print("finished")
 
 #mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
-demoLoop(degStop=15, numStop = 12, degMove=30, numMove = 1, filename = "radial_stepping_feet.gif")
+demoLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "6x6.gif")
 
 win.close()
 core.quit()
