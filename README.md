@@ -39,7 +39,9 @@ Compare this again to the "radial" version of the famous Stepping Feet illusion.
 
 ![Image of radial stepping feet illusion](radial_stepping_feet.gif)
 
-Occlusion cues are required for for proper attentive tracking. Leading and trailing edges are types of occlusion cues. I hypothesized that the above phenomena are the result of misplaced occlusion cues. 
+In theory (according to the mainstream explanation of the Stepping Feet Illusion), in both cases motion signals were lost when the blades completely overlapped. Yet in strength of the illusion (the illusion of the moving blade stopping even when it's still moving) is clearly weaker in the first case. This means there's something more going on, more than just the lack of motion signals. 
+
+We already know that occlusion cues are required for for proper attentive tracking. Leading and trailing edges are types of occlusion cues. I hypothesized that the above phenomena are the result of misplaced occlusion cues. 
 
 Type 1: the leading and trailing edges of the moving blades are attributed to the stationary blades when they overlap.
 
