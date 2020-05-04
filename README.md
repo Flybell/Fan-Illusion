@@ -54,6 +54,8 @@ Type 1: the leading and trailing edges of the moving blades are attributed to th
 
 Type 2: the leading and trailing edges of the moving blades disappear when they overlap with the stationary blades. 
 
+The thesis tested whether and how adding and removing occlusion cues affected the illusion.
+
 # Fun stuff
 
 Here's some weird demos, for fun!
