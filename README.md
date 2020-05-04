@@ -1,10 +1,13 @@
 # Fan-Illusion
 Welcome to the repository of Lynn's master's thesis in perceptual science! 
 
-# Demos
-Demos are written in PsychoPy & Python3. 
+Supervised by Dr Suling Yeh, I explored the higher-level mechanisms behind a series of "motion capture" illusions. 
 
-There are two types of "motion capture" illusions. 
+What are motion capture illusions?
+
+# Demos
+
+There are two types. 
 
 The first type: a stationary blade is "captured" by moving blades and seemly moves. 
 
@@ -17,3 +20,16 @@ The second type: a moving blad is "captured" by stationary blades and seemly sto
 The second type, what I dubbed the "stop and go illusion" in my master's thesis, is a modification of the Stepping Feet illusion. Here it is in its radial form: 
 
 ![Image of radial stepping feet illusion](12x1.gif)
+
+The mainstream explanation of the Stepping Feet illusion is low-level, focusing on the presence and detection of motion signals. I explored whether the illusion is in part caused by a higher-level attention process. 
+
+# Scripts
+
+The scripts are written in PsychoPy & Python3. 
+
+Download all files and run Fan_Illusion.py 
+
+Dependencies: psychopy 
+
+
+
