@@ -9,11 +9,11 @@ What are motion capture illusions?
 
 There are two types. 
 
-The first type: stationary blades are "captured" by moving blades and seemly moves. 
+The first type: stationary blades are "captured" by moving blades and seemly move. 
 
 ![Image of first type of motion capture](6x12.gif)
 
-The second type: moving blades are instead "captured" by stationary blades and seemly stops. 
+The second type: moving blades are instead "captured" by stationary blades and seemly stop. 
 
 ![Image of second type of motion capture](6x6.gif)
 
