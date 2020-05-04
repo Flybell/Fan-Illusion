@@ -67,6 +67,6 @@ Here's some weird demos, for fun!
 
 The scripts are written in PsychoPy & Python3. Make sure you have psychopy library installed.
 
-Download all files and run Fan_Illusion.py to run the illusions in a pop-up window. For now, adjust parameters in the script (instructions included in the documentation). 
+* Fan_Illusion.py: run illusions in a pop-up window. For now, adjust parameters in the script (instructions included in the documentation). 
 
-Run Fan_Illusion_Demo_Creator.py to create infinite loop gif demos. 
+* Download Fan_Illusion_Demo_Creator.py and gifMethods.py and run the former script to create infinite loop gif demos. 
