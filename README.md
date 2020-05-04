@@ -14,3 +14,6 @@ The second type: a moving blad is "captured" by stationary blades and seemly sto
 
 ![Image of second type of motion capture](6x6.gif)
 
+The second type, what I dubbed the "stop and go illusion" in my master's thesis, is a modification of the Stepping Feet illusion. Here it is in its radial form: 
+
+![Image of radial stepping feet illusion](12x1.gif)
