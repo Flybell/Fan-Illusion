@@ -16,7 +16,9 @@ The other fan is rotating clockwise -- its blades are moving uniformaly.
 
 ![Image of just moving blades](just_moving.gif)
 
-There are two types of motion capture illusions.
+What happens when we put the two together? 
+
+We can get two types of motion capture illusions.
 
 The first type: stationary blades are "captured" by moving blades and seemly move. 
 
