@@ -7,7 +7,7 @@
 from psychopy import visual, core, event
 from gifMethods import create_png_folder, create_gif
 
-win = visual.Window([600, 600], color = "white")
+win = visual.Window([300, 300], color = "white")
 
 def create_blade(degree, ori):
     return visual.RadialStim(
@@ -16,7 +16,8 @@ def create_blade(degree, ori):
     visibleWedge= [0,degree],
     radialCycles= 0,
     angularCycles= 90//degree,
-    ori = ori
+    ori = ori,
+    size = 1.5
     )
 
 def drawBlade(deg, num):
@@ -71,8 +72,8 @@ def demoLoop(degStop, numStop, degMove, numMove, filename):
     create_gif(filename) #infinite loop gif
     print("finished")
 
-mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
-#demoLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
+#mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
+demoLoop(degStop=15, numStop = 12, degMove=30, numMove = 1, filename = "radial_stepping_feet.gif")
 
 win.close()
 core.quit()
