@@ -44,7 +44,7 @@ def mainLoop(degStop, numStop, degMove, numMove, filename):
             animateBlade(blade, speed=1)
         win.flip()
 
-        if event.getKeys(keyList=['escape']):
+        if event.getKeys(keyList=['escape']): #escape to end
             finish = True
 
 def demoLoop(degStop, numStop, degMove, numMove, filename):
@@ -55,23 +55,24 @@ def demoLoop(degStop, numStop, degMove, numMove, filename):
     moving_blades = drawBlade(degMove, numMove)
 
     frame = 0
-    for frame in range(0, 719):
+    for frame in range(0, 719): #loops two cycles
         frame +=1
         for blade in stationary_blades:
             animateBlade(blade, speed=0)
         for blade in moving_blades:
             animateBlade(blade, speed=1)
         win.flip()
-        win.getMovieFrame() #screenshot
+        win.getMovieFrame() #takes a screenshot of each frame
 
+    #creates gif file out of screenshots
     print("creating gif file")
     create_png_folder()
     win.saveMovieFrames("png/stimuli.png")
-    create_gif(filename)
+    create_gif(filename) #infinite loop gif
     print("finished")
 
-#mainLoop(4, 1)
-demoLoop(degStop=15 , numStop = 12, degMove=30, numMove = 1, filename = "radial_stepping_feet.gif")
+mainLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
+#demoLoop(degStop=30, numStop = 6, degMove=15, numMove = 6, filename = "")
 
 win.close()
 core.quit()
