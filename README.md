@@ -13,7 +13,7 @@ The other fan is rotating clockwise -- its blades are moving uniformaly.
 
 Stationary Fan             |  Moving Fan
 :-------------------------:|:-------------------------:
-![Image of stationary blades](just_stat.gif)  |  ![Image of just moving blades](just_moving.gif)
+![Image of stationary blades](gif/just_stat.gif)  |  ![Image of just moving blades](just_moving.gif)
 
 
 What happens when we put the two together? 
