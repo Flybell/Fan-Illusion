@@ -7,7 +7,6 @@ Change parameters in mainLoop.
 """
 
 from psychopy import visual, core, event
-from gifMethods import create_png_folder, create_gif
 
 win = visual.Window([300, 300], color = "white")
 
