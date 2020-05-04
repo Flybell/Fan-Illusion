@@ -23,8 +23,7 @@ The first type: stationary blades are "captured" by moving blades and seemly mov
 
 Type 1             |  Type 2
 :-------------------------:|:-------------------------:
-![Image of first type of motion capture](6x12.gif)  |  
-![Image of second type of motion capture](6x6.gif)
+![Image of first type of motion capture](6x12.gif)  |  ![Image of second type of motion capture](6x6.gif)
 
 # Explanation?
 
