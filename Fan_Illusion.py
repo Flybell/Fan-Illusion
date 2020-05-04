@@ -21,7 +21,7 @@ def create_blade(degree, ori):
     size = 1.5
     )
 
-def drawBlade(deg, num):
+def createBlade(deg, num):
     blades = []
     for ori in range(0, 360, 360//num):
         blade = create_blade(deg, ori)
@@ -42,8 +42,8 @@ def mainLoop(degStop, numStop, degMove, numMove, filename):
     filename: the name of the gif file
     """
     #create the two fans
-    stationary_blades = drawBlade(degStop, numStop)
-    moving_blades = drawBlade(degMove, numMove)
+    stationary_blades = createBlade(degStop, numStop)
+    moving_blades = createBlade(degMove, numMove)
 
     while finish is not True:
         for blade in stationary_blades:
