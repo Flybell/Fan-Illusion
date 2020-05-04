@@ -3,7 +3,7 @@ Welcome to the repository of Lynn's master's thesis in perceptual science!
 
 Supervised by Dr Suling Yeh, I explored the higher-level attention processes behind a series of "motion capture" illusions. 
 
-What are motion capture illusions?
+What are motion capture illusions? Let's look at some Demos!
 
 # Demos
 
