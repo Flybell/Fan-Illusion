@@ -30,11 +30,9 @@ The second type: moving blades are instead "captured" by stationary blades and s
 
 # Explanation?
 
-The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its original and radial form: 
+The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its original.
 
 ![Image of stepping feet illusion](stepping_feet.gif)
-
-![Image of radial stepping feet illusion](radial_stepping_feet.gif)
 
 The mainstream explanation of the Stepping Feet illusion is low-level, focusing on the presence and detection of motion signals. I explored whether the illusion is in part caused by higher-level attention processes. The reason? Motion perception is not just a matter of detecting motion signals. 
 
