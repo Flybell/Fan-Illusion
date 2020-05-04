@@ -23,7 +23,7 @@ The second type: moving blades are instead "captured" by stationary blades and s
 
 The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its radial form: 
 
-![Image of radial stepping feet illusion](12x1.gif)
+![Image of radial stepping feet illusion](radial_stepping_feet.gif)
 
 # Explanation?
 
@@ -31,15 +31,21 @@ The mainstream explanation of the Stepping Feet illusion is low-level, focusing 
 
 In the absence of motion signals, we can still "track" and perceive an object as moving  (e.g., when a car is moving through a tunnel or when a rolling ball is temporarily occuluded by a tree trunk). The ability to track is highly contingent on the ability to attend to the object being tracked. When there are too many objects to track, attention load or capacity is depleted and the ability to track deteriorates. 
 
-Occlusion cues are required for for proper attentive tracking. Leading and trailing edges are types of occlusion cues. I hypothesized that the above phenomena are the result of misplaced occlusion cues. Type 1: the leading and trailing edges of the moving blades are attributed to the stationary blades when they overlap. 
+Here's an example. In this demo, the motion capture illusion is much weaker. We seem to be able to successfully track the moving blade as it transpasses the stationary blades. 
+
+![Image of single blade moving across multiple blades](12x1.gif)
+
+
+Occlusion cues are required for for proper attentive tracking. Leading and trailing edges are types of occlusion cues. I hypothesized that the above phenomena are the result of misplaced occlusion cues. 
+
+Type 1: the leading and trailing edges of the moving blades are attributed to the stationary blades when they overlap.
+
+Type 2: the leading and trailing edges of the moving blades disappear when they overlap with the stationary blades. 
+
 
 # Scripts
 
 The scripts are written in PsychoPy & Python3. 
 
-Download all files and run Fan_Illusion.py 
-
-Dependencies: psychopy 
-
-
-
+1. Make sure you have psychopy library installed 
+2. Download all files and run Fan_Illusion.py 
