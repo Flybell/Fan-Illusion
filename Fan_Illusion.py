@@ -31,34 +31,35 @@ def animateBlade(blade, speed):
     blade.setOri(speed, operation="+")
     blade.draw()
 
-def mainLoop(numBig, numSmall):
+def mainLoop(degStop, numStop, degMove, numMove, filename):
     finish = False
 
-    small_blades = drawBlade(15, numSmall)
-    big_blades = drawBlade(30, numBig)
+    stationary_blades = drawBlade(degStop, numStop)
+    moving_blades = drawBlade(degMove, numMove)
 
     while finish is not True:
-        for blade in big_blades:
+        for blade in stationary_blades:
             animateBlade(blade, speed=0)
-        for blade in small_blades:
+        for blade in moving_blades:
             animateBlade(blade, speed=1)
         win.flip()
 
         if event.getKeys(keyList=['escape']):
             finish = True
 
-def demoLoop(numBig, numSmall, filename):
+def demoLoop(degStop, numStop, degMove, numMove, filename):
     """ creates a gif file from screenshots (png files)
     of one entire cycle (360 degrees)"""
-    small_blades = drawBlade(30, numSmall)
-    big_blades = drawBlade(15, numBig)
+
+    stationary_blades = drawBlade(degStop, numStop)
+    moving_blades = drawBlade(degMove, numMove)
 
     frame = 0
     for frame in range(0, 719):
         frame +=1
-        for blade in big_blades:
+        for blade in stationary_blades:
             animateBlade(blade, speed=0)
-        for blade in small_blades:
+        for blade in moving_blades:
             animateBlade(blade, speed=1)
         win.flip()
         win.getMovieFrame() #screenshot
@@ -70,7 +71,7 @@ def demoLoop(numBig, numSmall, filename):
     print("finished")
 
 #mainLoop(4, 1)
-demoLoop(12, 1, "12x1.gif")
+demoLoop(degStop=15 , numStop = 12, degMove=30, numMove = 1, filename = "radial_stepping_feet.gif")
 
 win.close()
 core.quit()
