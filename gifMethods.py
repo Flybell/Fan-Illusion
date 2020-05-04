@@ -11,12 +11,12 @@ def create_png_folder():
 
 def create_gif(filename):
     frames = []
-    imgs = glob.glob("png/*.png")
+    imgs = glob.glob("png/*.png") #save frames to png folder
     for i in imgs:
         new_frame = Image.open(i)
         frames.append(new_frame)
 
-    gif_file = "gifs/" + filename
+    gif_file = "gifs/" + filename #save gif to gif folder
 
     # Save into a GIF file that loops forever
     frames[0].save(gif_file, format='GIF',
