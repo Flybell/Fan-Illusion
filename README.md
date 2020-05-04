@@ -11,23 +11,20 @@ The demos below consist of two "fans," each with multiple blades.
 One fan is stationary-- its blades are not moving. 
 The other fan is rotating clockwise -- its blades are moving uniformaly. 
 
-
 Stationary fan             |  Moving fan
 :-------------------------:|:-------------------------:
 ![Image of stationary blades](just_stat.gif)  |  ![Image of just moving blades](just_moving.gif)
 
 What happens when we put the two together? 
 
-We can get two types of motion capture illusions.
+We can get two types of motion capture illusions. 
 
-The first type: stationary blades are "captured" by moving blades and seemly move. 
+The first type: stationary blades are "captured" by moving blades and seemly move. The second type: moving blades are instead "captured" by stationary blades and seemly stop. 
 
-![Image of first type of motion capture](6x12.gif)
-
-The second type: moving blades are instead "captured" by stationary blades and seemly stop. 
-
+Type 1             |  Type 2
+:-------------------------:|:-------------------------:
+![Image of first type of motion capture](6x12.gif)  |  
 ![Image of second type of motion capture](6x6.gif)
-
 
 # Explanation?
 
