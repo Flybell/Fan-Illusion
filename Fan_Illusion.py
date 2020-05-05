@@ -2,7 +2,7 @@
 
 """
 A pop out window (Psychopy) running the fan illusion on infinite loop.
-Press `escape` key to the close window.
+Press `escape` key to close the window.
 Change parameters in mainLoop.
 """
 
@@ -10,7 +10,7 @@ from psychopy import visual, core, event
 
 win = visual.Window([300, 300], color = "white")
 
-def create_blade(degree, ori):
+def blade_object(degree, ori):
     return visual.RadialStim(
     win = win,
     color= 1,
@@ -24,7 +24,7 @@ def create_blade(degree, ori):
 def createBlade(deg, num):
     blades = []
     for ori in range(0, 360, 360//num):
-        blade = create_blade(deg, ori)
+        blade = blade_object(deg, ori)
         blade.setPos([0, 0])
         blades.append(blade)
     return blades
