@@ -47,11 +47,17 @@ I want you to really STARE at the blade as it moves.
 
 Stare at the moving blade. Not the center of the fan. 
 
-We seem to be able to successfully track the moving blade as it transpasses the stationary blades.  
+The more focused your tracking, the smoother the blade seems to move as it transpasses the stationary blades.  
 
 Now...
 
-Compare this again to the "radial" version of the famous Stepping Feet illusion. 
+Let us compare this again to a "radial" version of the famous Stepping Feet illusion. 
+.
+.
+.
+.
+.
+.
 
 ![Image of radial stepping feet illusion](gifs/radial_stepping_feet.gif)
 
