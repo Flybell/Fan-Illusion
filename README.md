@@ -54,7 +54,7 @@ Now...
 Let us compare this again to a "radial" version of the famous Stepping Feet illusion. 
 .
 .
-.
+Even as you stare at the moving blade, you can't help but see it as stopping-- full stop -- when its edges overlap completely with the stationary blades. 
 .
 .
 .
