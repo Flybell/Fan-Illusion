@@ -45,7 +45,7 @@ I want you to really STARE at the blade as it moves.
 ![Image of single blade moving across multiple blades](gifs/6x1.gif)
 
 
-Stare at the moving blade. Not the center of the fan. 
+Stare at the moving blade. Not the center of the fan. Think of it as a car passing through a tunnel. The car doesn't stop when it's occluded, does it? Can you perceive the moving blade as moving smoothly behind the stationary blades now?
 
 The more focused your tracking, the smoother the blade seems to move as it transpasses the stationary blades.  
 
