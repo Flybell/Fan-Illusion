@@ -1,3 +1,10 @@
+#!/user/bin/env python3
+
+"""
+Creates a gif file in a gifs folder
+By stitching together png files in a png folder
+"""
+
 from PIL import Image
 import glob
 import os
