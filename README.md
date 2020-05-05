@@ -1,5 +1,5 @@
 # Fan Illusions
-Welcome to the repository of Lynn Chiu's master's thesis (defended in 2009)! Supervised by Dr Suling Yeh, I explored the higher-level attention processes behind a series of "motion capture" illusions. 
+Welcome to the repository of Lynn Chiu's master's thesis (defended in 2009 at National Taiwan University, Department of Psychology)! Supervised by Dr Suling Yeh, I explored the higher-level attention processes behind a series of "motion capture" illusions. 
 
 What are motion capture illusions? Let's look at some DEMOS!
 
