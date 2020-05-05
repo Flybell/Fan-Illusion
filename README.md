@@ -30,11 +30,17 @@ The second type: moving blades are instead "captured" by stationary blades and s
 
 # Explanation?
 
-The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its original.
+The second type, what I dubbed the "stop and go illusion," is a modification of the Stepping Feet illusion. Here it is in its original form. 
 
 ![Image of stepping feet illusion](gifs/stepping_feet.gif)
 
-The mainstream explanation of the Stepping Feet illusion is low-level, focusing on the presence and detection of motion signals. I explored whether the illusion is in part caused by higher-level attention processes. The reason? Motion perception is not just a matter of detecting motion signals. 
+What is going on here? The two bars-- identical except one is black and the other white-- are actually moving in tandem at the same, uniform speed. They look like they're moving one after the other (hence "stepping" feet). That's the illusion. 
+
+The mainstream explanation of the Stepping Feet illusion is low-level, focusing on the detection of motion signals. When the moving edges "disappear" as they move across bars of the same color, we no longer detect a moving signal and see it as stationary, even though the edges are still moving. 
+
+I explored whether the illusion is also in part caused by higher-level attention processes. 
+
+The reason? Motion perception is not just a matter of detecting motion signals. 
 
 In the absence of motion signals, we can still "track" and perceive an object as moving  (e.g., when a car is moving through a tunnel or when a rolling ball is temporarily occuluded by a tree trunk). The ability to track is highly contingent on the ability to attend to the object being tracked. When there are too many objects to track, attention load or capacity is depleted and the ability to track deteriorates. 
 
