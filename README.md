@@ -42,17 +42,14 @@ Here's an example. In this demo, the motion capture illusion is much weaker.
 
 I want you to really STARE at the blade as it moves. 
 
-We seem to be able to successfully track the moving blade as it transpasses the stationary blades.  
-
 ![Image of single blade moving across multiple blades](gifs/6x1.gif)
 
 
+Stare at the moving blade. Not the center of the fan. 
 
+We seem to be able to successfully track the moving blade as it transpasses the stationary blades.  
 
-
-
-
-
+Now...
 
 Compare this again to the "radial" version of the famous Stepping Feet illusion. 
 
