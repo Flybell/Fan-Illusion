@@ -1,8 +1,13 @@
 #!/user/bin/env python3
 
 """
-Creates a gif file in a gifs folder
-By stitching together png files in a png folder
+Creates a png folder
+Creates a gif file in a gifs folder by stitching together files in png folder
+
+FILES
+=====
+    create_png_folder(): creates an empty "/png" folder
+    creat_gif(filename): creates a gif "gifs/filename.gif"
 """
 
 from PIL import Image
