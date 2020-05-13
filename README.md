@@ -83,7 +83,7 @@ The illusion is strong here:
 
 ![](gifs/strong_mc.gif)
 
-but decreasing the number of moving blades yields a very weak illusion: 
+but decreasing the number of moving blades yields a very weak, non-existent even, illusion: 
 
 ![](gifs/weak_mc.gif)
 
