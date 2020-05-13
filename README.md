@@ -77,6 +77,16 @@ Type 2: the leading and trailing edges of the moving blades disappear when they 
 
 The thesis tested whether and how adding and removing occlusion cues affected the illusion.
 
+# More on the first type of motion capture 
+
+The illusion is strong here: 
+
+![](gifs/odd.gif) ![](gifs/strong_mc.gif)
+
+but decreasing the number of moving blades yields a very weak illusion: 
+
+![](gifs/odd.gif) ![](gifs/weak_mc.gif)
+
 # Fun stuff
 
 Here's some weird demos, for fun!
