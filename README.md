@@ -81,11 +81,11 @@ The thesis tested whether and how adding and removing occlusion cues affected th
 
 The illusion is strong here: 
 
-![](gifs/odd.gif) ![](gifs/strong_mc.gif)
+![](gifs/strong_mc.gif)
 
 but decreasing the number of moving blades yields a very weak illusion: 
 
-![](gifs/odd.gif) ![](gifs/weak_mc.gif)
+![](gifs/weak_mc.gif)
 
 # Fun stuff
 
